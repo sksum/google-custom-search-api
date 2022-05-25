@@ -4,11 +4,10 @@ import * as fs from 'fs';
 dotenv.config()
 /*
 .env structure:
-  API_KEY=xxxx
   SEARCH_ENGINE_ID=bc7da1830511c0906
   API_KEYS='["xxxx", "zzzz", "yyyy"]'
 */
-import data from './flipkart_reviews_dataset.js';
+import data from './raw_data.js';
 const reviews = data.reviews;
 // const reviews = data.reviews.slice(0, 100);
 const SOCIAL_FILE = 'social_links.csv';
